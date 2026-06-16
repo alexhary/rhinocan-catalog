@@ -4,7 +4,7 @@
   "modules": [
     {
       "id": "rhinocan-objectmanager2222",
-      "name": "ObjectManager",
+      "name": "ObjectManager2222222",
       "description": "Scene tree for Rhino",
       "version": "0.0.83",
       "status": "installed",
@@ -20,7 +20,7 @@
     },
     {
       "id": "rhinocan-timeline",
-      "name": "Timeline",
+      "name": "Timeline222",
       "description": "Animation preview for Rhino",
       "status": "coming_soon",
       "rhinocanUrl": "https://rhinocan.app/timeline"
