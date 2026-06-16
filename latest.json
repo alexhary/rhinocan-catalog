@@ -1,39 +1,39 @@
 {
-  "catalogVersion": "1.0",
+  "catalogVersion": "sim",
   "updatedAt": "2026-06-16",
   "modules": [
     {
       "id": "rhinocan-objectmanager",
-      "name": "Object Manager77777777777",
+      "name": "Object Manager99999999",
       "description": "Scene tree for Rhino layers and objects",
       "version": "0.83",
       "status": "installed",
       "tier": "free",
       "action": "",
       "downloadUrl": "",
-      "rhinocanUrl": "https://rhinocan.app/objectmanager"
+      "rhinocanUrl": "https://rhinocan.app"
     },
     {
       "id": "rhinocan-modifiers",
       "name": "Modifiers",
       "description": "Polar Array · Path Array · Scatter",
-      "version": "",
-      "status": "coming_soon",
-      "tier": "pro",
-      "action": "",
-      "downloadUrl": "",
+      "version": "1.10",
+      "status": "installed",
+      "tier": "free",
+      "action": "get",
+      "downloadUrl": "https://gumroad.com/l/rhinocan-modifiers",
       "rhinocanUrl": "https://rhinocan.app/modifiers"
     },
     {
-      "id": "Coca cola",
-      "name": "Coca cola",
+      "id": "rhinocan-timeline",
+      "name": "Timeline",
       "description": "Animation preview for Rhino",
       "version": "",
       "status": "coming_soon",
       "tier": "pro",
       "action": "",
       "downloadUrl": "",
-      "rhinocanUrl": "https://rhinocan.app/timeline"
+      "rhinocanUrl": ""
     }
   ]
 }
