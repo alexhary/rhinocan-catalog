@@ -1,39 +1,28 @@
 {
-  "catalogVersion": "sim-01",
+  "catalogVersion": "1.0",
   "updatedAt": "2026-06-16",
   "modules": [
     {
       "id": "rhinocan-objectmanager",
-      "name": "Object Manager",
+      "name": "Object Manager77777777777",
       "description": "Scene tree for Rhino layers and objects",
-      "version": "0.84",
-      "status": "update",
+      "version": "0.83",
+      "status": "installed",
       "tier": "free",
-      "action": "update",
-      "downloadUrl": "https://gumroad.com/l/rhinocan-objectmanager",
+      "action": "",
+      "downloadUrl": "",
       "rhinocanUrl": "https://rhinocan.app/objectmanager"
     },
     {
       "id": "rhinocan-modifiers",
       "name": "Modifiers",
       "description": "Polar Array · Path Array · Scatter",
-      "version": "1.10",
-      "status": "installed",
-      "tier": "free",
+      "version": "",
+      "status": "coming_soon",
+      "tier": "pro",
       "action": "",
       "downloadUrl": "",
       "rhinocanUrl": "https://rhinocan.app/modifiers"
-    },
-    {
-      "id": "rhinocan-camera",
-      "name": "Camera Manager",
-      "description": "Camera paths, animated views and keyframes",
-      "version": "1.0",
-      "status": "pro_required",
-      "tier": "pro",
-      "action": "get",
-      "downloadUrl": "https://gumroad.com/l/rhinocan-camera",
-      "rhinocanUrl": "https://rhinocan.app/camera"
     },
     {
       "id": "rhinocan-timeline",
