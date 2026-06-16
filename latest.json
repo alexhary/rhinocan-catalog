@@ -1,7 +1,7 @@
 {
   "modules": [
     {
-      "id": "objectmanager",
+      "id": "objectmanager222",
       "name": "Object Manager",
       "description": "Scene tree outliner for Rhino layers and objects",
       "version": "0.83",
