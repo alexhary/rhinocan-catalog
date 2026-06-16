@@ -1,1 +1,29 @@
-"description": "Polar Array · Scatter · TEST SERVER"
+{
+  "catalogVersion": "1.0.0",
+  "updatedAt": "2026-06-16",
+  "modules": [
+    {
+      "id": "rhinocan-objectmanager2222",
+      "name": "ObjectManager",
+      "description": "Scene tree for Rhino",
+      "version": "0.0.83",
+      "status": "installed",
+      "tier": "free",
+      "rhinocanUrl": "https://rhinocan.app/objectmanager"
+    },
+    {
+      "id": "rhinocan-modifiers",
+      "name": "Modifiers",
+      "description": "Polar Array · Scatter · TEST SERVER",
+      "status": "coming_soon",
+      "rhinocanUrl": "https://rhinocan.app/modifiers"
+    },
+    {
+      "id": "rhinocan-timeline",
+      "name": "Timeline",
+      "description": "Animation preview for Rhino",
+      "status": "coming_soon",
+      "rhinocanUrl": "https://rhinocan.app/timeline"
+    }
+  ]
+}
