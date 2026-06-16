@@ -1,11 +1,37 @@
-// rhinocan-catalog/latest.json
-// меняешь Modifiers с "coming_soon" на:
 {
-  "id": "modifiers",
-  "name": "RhinoCan Modifiers",
-  "status": "installed",   // ← было coming_soon
-  "tier": "free",
-  "version": "1.10",
-  "action": "get",
-  "download_url": "https://gumroad.com/l/rhinocan-modifiers"
+  "modules": [
+    {
+      "id": "objectmanager",
+      "name": "Object Manager",
+      "description": "Scene tree outliner for Rhino layers and objects",
+      "version": "0.83",
+      "status": "installed",
+      "tier": "free",
+      "action": "",
+      "downloadUrl": "",
+      "rhinocanUrl": "https://rhinocan.app"
+    },
+    {
+      "id": "modifiers",
+      "name": "RhinoCan Modifiers",
+      "description": "Polar Array, Scatter, Path Array and more",
+      "version": "1.10",
+      "status": "installed",
+      "tier": "free",
+      "action": "get",
+      "downloadUrl": "https://gumroad.com/l/rhinocan-modifiers",
+      "rhinocanUrl": "https://rhinocan.app/modifiers"
+    },
+    {
+      "id": "timeline",
+      "name": "Simple Timeline",
+      "description": "Animation timeline for Rhino",
+      "version": "",
+      "status": "coming_soon",
+      "tier": "pro",
+      "action": "",
+      "downloadUrl": "",
+      "rhinocanUrl": ""
+    }
+  ]
 }
