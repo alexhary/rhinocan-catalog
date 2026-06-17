@@ -8,9 +8,11 @@
       "description": "Scene outliner + RhinoCan Hub",
       "version": "1.0",
       "category": "Core",
-      "status": "installed",
+      "status": "available",
       "tier": "free",
-      "pluginAssembly": "ObjectManager"
+      "action": "get",
+      "pluginAssembly": "ObjectManager",
+      "panelId": "2BFD0E81-0CA2-4A2D-9BE3-D405E6D50734"
     },
     {
       "id": "polar-array",
@@ -22,6 +24,7 @@
       "tier": "free",
       "action": "get",
       "pluginAssembly": "RhinoCan.Hub",
+      "panelId": "55074C06-D006-4AA6-B519-66C254C3D773",
       "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases/latest/download/RhinoCan_PolarArray_Free.zip"
     },
     {
