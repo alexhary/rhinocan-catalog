@@ -9,17 +9,19 @@
       "version": "1.0",
       "category": "Core",
       "status": "installed",
-      "tier": "free"
+      "tier": "free",
+      "pluginAssembly": "ObjectManager"
     },
     {
       "id": "polar-array",
       "name": "Polar Array",
       "description": "Radial distribution with live preview",
-      "version": "1.04.179",
+      "version": "1.04.185",
       "category": "Modifiers",
       "status": "available",
       "tier": "free",
       "action": "get",
+      "pluginAssembly": "RhinoCan.Hub",
       "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases/latest/download/RhinoCan_PolarArray_Free.zip"
     },
     {
