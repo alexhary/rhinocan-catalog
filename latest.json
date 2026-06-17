@@ -1,45 +1,58 @@
 {
-  "catalogVersion": "1.0.0",
+  "catalogVersion": "1.0",
   "updatedAt": "2026-06-17",
   "modules": [
     {
       "id": "object-manager",
       "name": "Object Manager",
-      "description": "Scene tree, outliner, layers",
-      "version": "0.83",
+      "description": "Scene outliner + RhinoCan Hub",
+      "version": "1.0",
+      "category": "Core",
       "status": "installed",
-      "tier": "free",
-      "action": "",
-      "category": "Core"
+      "tier": "free"
     },
     {
       "id": "polar-array",
       "name": "Polar Array",
-      "description": "Parametric polar array with randomization",
-      "version": "1.04",
+      "description": "Radial distribution with live preview",
+      "version": "1.04.179",
+      "category": "Modifiers",
       "status": "available",
       "tier": "free",
       "action": "get",
-      "downloadUrl": "https://rhinocan.app",
-      "category": "Modifiers"
+      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases/latest/download/RhinoCan_PolarArray_Free.zip"
     },
     {
       "id": "scatter",
       "name": "Scatter",
-      "description": "Surface and volume scatter",
+      "description": "Distribute objects across surfaces",
+      "category": "Modifiers",
       "status": "coming_soon",
-      "tier": "free",
-      "action": "",
-      "category": "Modifiers"
+      "tier": "pro"
     },
     {
-      "id": "path-array",
+      "id": "array-along-path",
       "name": "Array Along Path",
-      "description": "Array objects along any curve",
+      "description": "Repeat objects along curves",
+      "category": "Modifiers",
       "status": "coming_soon",
-      "tier": "free",
-      "action": "",
-      "category": "Modifiers"
+      "tier": "pro"
+    },
+    {
+      "id": "pipe-sweep",
+      "name": "Pipe / Sweep",
+      "description": "Sweep profiles along paths",
+      "category": "Modifiers",
+      "status": "coming_soon",
+      "tier": "pro"
+    },
+    {
+      "id": "curve-flow",
+      "name": "Curve Flow",
+      "description": "Flow geometry along curves",
+      "category": "Modifiers",
+      "status": "coming_soon",
+      "tier": "pro"
     }
   ]
 }
