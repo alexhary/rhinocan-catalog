@@ -13,14 +13,32 @@
       "category": "Core"
     },
     {
-      "id": "rhinocan-modifiers",
-      "name": "RhinoCan Modifiers",
-      "description": "Polar Array, Scatter, Path Array",
+      "id": "polar-array",
+      "name": "Polar Array",
+      "description": "Parametric polar array with randomization",
       "version": "1.04",
       "status": "available",
       "tier": "free",
       "action": "get",
-      "downloadUrl": "https://...",
+      "downloadUrl": "https://rhinocan.app",
+      "category": "Modifiers"
+    },
+    {
+      "id": "scatter",
+      "name": "Scatter",
+      "description": "Surface and volume scatter",
+      "status": "coming_soon",
+      "tier": "free",
+      "action": "",
+      "category": "Modifiers"
+    },
+    {
+      "id": "path-array",
+      "name": "Array Along Path",
+      "description": "Array objects along any curve",
+      "status": "coming_soon",
+      "tier": "free",
+      "action": "",
       "category": "Modifiers"
     }
   ]
