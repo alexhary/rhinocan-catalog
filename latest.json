@@ -1,39 +1,27 @@
 {
-  "catalogVersion": "sim",
-  "updatedAt": "2026-06-16",
+  "catalogVersion": "1.0.0",
+  "updatedAt": "2026-06-17",
   "modules": [
     {
-      "id": "rhinocan-objectmanager",
-      "name": "Object Manager99999999",
-      "description": "Scene tree for Rhino layers and objects",
+      "id": "object-manager",
+      "name": "Object Manager",
+      "description": "Scene tree, outliner, layers",
       "version": "0.83",
       "status": "installed",
       "tier": "free",
       "action": "",
-      "downloadUrl": "",
-      "rhinocanUrl": "https://rhinocan.app"
+      "category": "Core"
     },
     {
       "id": "rhinocan-modifiers",
-      "name": "Modifiers",
-      "description": "Polar Array · Path Array · Scatter",
-      "version": "1.10",
-      "status": "installed",
+      "name": "RhinoCan Modifiers",
+      "description": "Polar Array, Scatter, Path Array",
+      "version": "1.04",
+      "status": "available",
       "tier": "free",
       "action": "get",
-      "downloadUrl": "https://gumroad.com/l/rhinocan-modifiers",
-      "rhinocanUrl": "https://rhinocan.app/modifiers"
-    },
-    {
-      "id": "rhinocan-timeline",
-      "name": "Timeline",
-      "description": "Animation preview for Rhino",
-      "version": "",
-      "status": "coming_soon",
-      "tier": "pro",
-      "action": "",
-      "downloadUrl": "",
-      "rhinocanUrl": ""
+      "downloadUrl": "https://...",
+      "category": "Modifiers"
     }
   ]
 }
