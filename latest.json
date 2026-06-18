@@ -1,0 +1,106 @@
+{
+  "catalogVersion": "sim-1.0",
+  "updatedAt": "2026-06-01",
+  "modules": [
+    {
+      "id": "polar-array",
+      "name": "Polar Array",
+      "description": "Parametric polar array modifier",
+      "version": "1.2.0",
+      "status": "installed",
+      "tier": "free",
+      "action": null,
+      "category": "Modifiers",
+      "pluginAssembly": "RhinoCan.CDModifiers",
+      "panelId": "55074C06-D006-4AA6-B519-66C254C3D773",
+      "iconPath": null
+    },
+    {
+      "id": "scatter",
+      "name": "Scatter",
+      "description": "Distribute objects across surfaces",
+      "version": "1.1.0",
+      "status": "installed",
+      "tier": "free",
+      "action": null,
+      "category": "Modifiers",
+      "pluginAssembly": "RhinoCan.CDModifiers",
+      "panelId": "55074C06-D006-4AA6-B519-66C254C3D773",
+      "iconPath": null
+    },
+    {
+      "id": "array-along-path",
+      "name": "Array along Path",
+      "description": "Array objects along any curve",
+      "version": "1.0.5",
+      "status": "installed",
+      "tier": "free",
+      "action": "update",
+      "downloadUrl": "https://rhinocan.app/download/array-along-path",
+      "category": "Modifiers",
+      "pluginAssembly": "RhinoCan.CDModifiers",
+      "panelId": "55074C06-D006-4AA6-B519-66C254C3D773",
+      "iconPath": null
+    },
+    {
+      "id": "masonry-fill",
+      "name": "Masonry Fill",
+      "description": "Fill surfaces with masonry patterns",
+      "version": "0.9.0",
+      "status": "available",
+      "tier": "pro",
+      "action": "get",
+      "downloadUrl": "https://rhinocan.app/download/masonry-fill",
+      "category": "Modifiers",
+      "iconPath": null
+    },
+    {
+      "id": "panelling",
+      "name": "Panelling",
+      "description": "Panel surfaces with custom UV cells",
+      "version": "0.8.2",
+      "status": "available",
+      "tier": "pro",
+      "action": "get",
+      "downloadUrl": "https://rhinocan.app/download/panelling",
+      "category": "Modifiers",
+      "iconPath": null
+    },
+    {
+      "id": "pipe-sweep",
+      "name": "Pipe / Sweep",
+      "description": "Profile sweep and pipe generator",
+      "version": "1.0.0",
+      "status": "available",
+      "tier": "free",
+      "action": "get",
+      "downloadUrl": "https://rhinocan.app/download/pipe-sweep",
+      "category": "Modifiers",
+      "iconPath": null
+    },
+    {
+      "id": "curve-flow",
+      "name": "Curve flow",
+      "description": "Deform objects along a curve",
+      "version": "0.7.1",
+      "status": "available",
+      "tier": "pro",
+      "action": "get",
+      "downloadUrl": "https://rhinocan.app/download/curve-flow",
+      "category": "Modifiers",
+      "iconPath": null
+    },
+    {
+      "id": "camera-manager",
+      "name": "Camera Manager",
+      "description": "Manage and animate Rhino cameras",
+      "version": "1.0.0",
+      "status": "available",
+      "tier": "free",
+      "action": "get",
+      "downloadUrl": "https://rhinocan.app/download/camera-manager",
+      "category": "Camera",
+      "iconPath": null
+    }
+  ]
+}
