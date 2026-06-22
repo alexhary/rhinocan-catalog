@@ -1,20 +1,42 @@
 {
-  "catalogVersion": "1.1",
+  "catalogVersion": "1.2",
   "updatedAt": "2026-06-22",
   "modules": [
     {
       "id": "object-manager",
       "name": "Object Manager",
-      "description": "Blender-style outliner and productivity panel for Rhino.",
-      "version": "0.121",
-      "status": "installed",
-      "tier": "free",
-      "action": "get",
       "category": "Workflow",
-      "pluginAssembly": "ObjectManager",
-      "panelId": "2BFD0E81-0CA2-4A2D-9BE3-D405E6D50734",
-      "downloadUrl": "https://rhinocan.app",
-      "rhinocanUrl": "https://rhinocan.app"
+      "tier": "free",
+      "version": "1.5.0",
+      "description": "Blender-style outliner and productivity panel for Rhino.",
+      "releaseNote": "New version includes improved Hub catalog, display mode logic, material tools and multi-folder workflow.",
+      "url": "https://rhinocan.app/object-manager",
+      "visible": true,
+      "enabled": true
+    },
+    {
+      "id": "camera-manager",
+      "name": "Camera Manager",
+      "category": "Camera",
+      "tier": "free",
+      "version": "1.0.0",
+      "description": "Manage cameras in the scene, save views, switch camera presets and organize camera setups.",
+      "releaseNote": "Initial public version.",
+      "url": "https://rhinocan.app/camera-manager",
+      "visible": true,
+      "enabled": true
+    },
+    {
+      "id": "polar-array",
+      "name": "Polar Array",
+      "category": "Modifiers",
+      "tier": "free",
+      "version": "1.2.0",
+      "description": "Create procedural polar arrays for objects, ornaments, radial patterns and design variations.",
+      "releaseNote": "Procedural polar array tool for RhinoCan modifiers workflow.",
+      "url": "https://rhinocan.app/polar-array",
+      "visible": true,
+      "enabled": true
     }
   ],
   "hubOptions": [
@@ -23,32 +45,32 @@
       "label": "Show tooltips",
       "visible": true,
       "enabled": true,
-      "tooltip": "Show or hide ObjectManager tooltips."
+      "default": true
     },
     {
       "id": "showLauncher",
       "label": "Show Launcher",
       "visible": true,
       "enabled": true,
-      "tooltip": "Show or hide the Launcher section on the Object Manager page."
+      "default": true
     },
     {
       "id": "showOnlineMessages",
       "label": "Show online messages",
       "visible": true,
       "enabled": true,
-      "tooltip": "Show or hide messages loaded from the online catalog."
+      "default": true
     }
   ],
   "messages": [
     {
-      "id": "beta-note-001",
-      "title": "Object Manager beta",
-      "text": "New Object Manager tools are in active beta. Check updates before recording tutorials.",
+      "id": "object-manager-update-150",
+      "title": "Object Manager v1.5.0 available",
+      "text": "A new Object Manager version is available with improved Hub, materials, display modes and folder workflow.",
+      "linkText": "Open RhinoCan",
+      "url": "https://rhinocan.app/object-manager",
       "visible": true,
-      "level": "info",
-      "linkLabel": "Open RhinoCan",
-      "url": "https://rhinocan.app"
+      "level": "info"
     }
   ]
 }
