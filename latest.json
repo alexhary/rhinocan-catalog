@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "1.3",
+  "catalogVersion": "1.4",
   "updatedAt": "2026-06-22",
   "hubHeader": {
     "title": "Visual UI-system and parametric plugins for Rhino.",
@@ -10,6 +10,7 @@
   "modules": [
     {
       "id": "object-manager",
+      "status": "installed",
       "name": "Object Manager",
       "nameColor": "#FFFFFF",
       "category": "Workflow",
@@ -28,13 +29,13 @@
       "statusColor": "#7DBDFF",
       "button": {
         "label": "UPDATE",
+        "tooltip": "Download or open the Object Manager update page.",
         "textColor": "#7DBDFF",
         "borderColor": "#7DBDFF",
         "url": "https://rhinocan.app/object-manager"
       },
       "visible": true,
-      "enabled": true,
-      "status": "installed"
+      "enabled": true
     },
     {
       "id": "camera-manager",
@@ -54,6 +55,7 @@
       "releaseNoteColor": "#7DBDFF",
       "button": {
         "label": "GET",
+        "tooltip": "Open the Camera Manager download page.",
         "textColor": "#7DBDFF",
         "borderColor": "#7DBDFF",
         "url": "https://rhinocan.app/camera-manager"
@@ -79,6 +81,7 @@
       "releaseNoteColor": "#7DBDFF",
       "button": {
         "label": "GET",
+        "tooltip": "Open the Polar Array download page.",
         "textColor": "#7DBDFF",
         "borderColor": "#7DBDFF",
         "url": "https://rhinocan.app/polar-array"
@@ -112,14 +115,14 @@
   ],
   "messages": [
     {
-      "id": "object-manager-update-150",
-      "title": "Object Manager v1.5.0 available",
+      "id": "rhinocan-beta-news",
+      "title": "RhinoCan beta catalog is online",
       "titleColor": "#7DBDFF",
-      "text": "A new Object Manager version is available with improved Hub, materials, display modes and folder workflow.",
+      "text": "Use this area for general RhinoCan news. Module updates should live inside module cards to avoid duplicate Object Manager cards.",
       "textColor": "#CFCFCF",
       "linkLabel": "Open RhinoCan",
       "linkColor": "#7DBDFF",
-      "url": "https://rhinocan.app/object-manager",
+      "url": "https://rhinocan.app",
       "visible": true,
       "level": "info"
     }
