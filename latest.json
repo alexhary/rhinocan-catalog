@@ -57,9 +57,9 @@
     {
       "id": "showOnlineMessages",
       "label": "Show online messages",
-      "visible": true,
-      "enabled": true,
-      "default": true
+      "visible": false,
+      "enabled": false,
+      "default": false
     }
   ],
   "messages": [
