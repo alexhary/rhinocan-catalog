@@ -73,8 +73,8 @@
       // Supported id: showOnlineMessages
       "id": "showOnlineMessages",
       "label": "Show online messages",
-      "visible": true,
-      "enabled": true,
+      "visible": false,
+      "enabled": false,
       "tooltip": "Show or hide messages loaded from the online catalog."
     }
   ],
