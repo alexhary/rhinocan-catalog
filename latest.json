@@ -1,60 +1,24 @@
 {
-  // catalogVersion: your own catalog schema/version label.
-  // Change this when you change the remote catalog structure.
   "catalogVersion": "1.1",
-
-  // updatedAt: free text or ISO date. Plugin only displays/keeps it as metadata.
   "updatedAt": "2026-06-22",
-
-  // modules: list of Hub cards shown in RhinoCan HUB.
   "modules": [
     {
-      // id: stable internal key. Do not rename after publishing.
       "id": "object-manager",
-
-      // name: visible card title.
       "name": "Object Manager",
-
-      // description: tooltip/short explanation.
       "description": "Blender-style outliner and productivity panel for Rhino.",
-
-      // version: shown as v X.X.X in card metadata.
       "version": "0.121",
-
-      // status: installed | update | coming_soon | available
-      // installed can also be detected by pluginAssembly.
       "status": "installed",
-
-      // tier: free | pro. Anything except "free" is shown as Pro.
       "tier": "free",
-
-      // action: get | update | upgrade | trial.
-      // If installed and panelId is valid, the button becomes Open.
       "action": "get",
-
-      // category: Hub section name. Empty/missing goes to Other.
       "category": "Workflow",
-
-      // pluginAssembly: assembly name used to detect if plugin is loaded.
       "pluginAssembly": "ObjectManager",
-
-      // panelId: Rhino panel GUID to open when installed.
       "panelId": "2BFD0E81-0CA2-4A2D-9BE3-D405E6D50734",
-
-      // downloadUrl/rhinocanUrl: opened by GET / Update / Upgrade buttons.
       "downloadUrl": "https://rhinocan.app",
       "rhinocanUrl": "https://rhinocan.app"
     }
   ],
-
-  // hubOptions: remote control for OPTIONS accordion checkboxes.
-  // The plugin only accepts known ids. Unknown ids are ignored safely.
-  // visible=false hides the checkbox completely.
-  // enabled=false shows it disabled.
-  // This does not create new plugin features; it only exposes supported local settings.
   "hubOptions": [
     {
-      // Supported id: showTooltips
       "id": "showTooltips",
       "label": "Show tooltips",
       "visible": true,
@@ -62,7 +26,6 @@
       "tooltip": "Show or hide ObjectManager tooltips."
     },
     {
-      // Supported id: showLauncher
       "id": "showLauncher",
       "label": "Show Launcher",
       "visible": true,
@@ -70,35 +33,20 @@
       "tooltip": "Show or hide the Launcher section on the Object Manager page."
     },
     {
-      // Supported id: showOnlineMessages
       "id": "showOnlineMessages",
       "label": "Show online messages",
-      "visible": false,
-      "enabled": false,
+      "visible": true,
+      "enabled": true,
       "tooltip": "Show or hide messages loaded from the online catalog."
     }
   ],
-
-  // messages: optional online Hub messages/banners.
-  // They are shown only when showOnlineMessages is enabled locally.
   "messages": [
     {
-      // id: stable message key.
       "id": "beta-note-001",
-
-      // title: optional short header.
       "title": "Object Manager beta",
-
-      // text: visible message body.
       "text": "New Object Manager tools are in active beta. Check updates before recording tutorials.",
-
-      // visible=false hides this message remotely.
       "visible": true,
-
-      // level: info | warning. Warning uses orange accent.
       "level": "info",
-
-      // Optional link.
       "linkLabel": "Open RhinoCan",
       "url": "https://rhinocan.app"
     }
