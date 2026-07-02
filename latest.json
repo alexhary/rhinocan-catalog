@@ -1,130 +1,70 @@
 {
-  "catalogVersion": "1.4",
-  "updatedAt": "2026-06-22",
-  "hubHeader": {
-    "title": "Visual UI-system and parametric plugins for Rhino.",
-    "titleColor": "#FFFFFF",
-    "subtitle": "Workflow tools, object management and procedural modules.",
-    "subtitleColor": "#AAAAAA"
-  },
+  "catalogVersion": "1.0",
+  "updatedAt": "2026-07-02",
   "modules": [
     {
       "id": "object-manager",
-      "status": "installed",
       "name": "Object Manager",
-      "nameColor": "#FFFFFF",
-      "category": "Workflow",
-      "categoryColor": "#AAAAAA",
-      "tier": "Free",
-      "tierColor": "#AAAAAA",
-      "version": "1.5.0",
-      "versionColor": "#AAAAAA",
-      "metaText": "Free v1.5.0",
-      "metaColor": "#AAAAAA",
-      "description": "Blender-like outliner and productivity panel for Rhino.",
-      "descriptionColor": "#CFCFCF",
-      "releaseNote": "New version includes improved Hub catalog, display mode logic, material tools and multi-folder workflow.",
-      "releaseNoteColor": "#7DBDFF",
-      "statusText": "New version available: v1.5.0",
-      "statusColor": "#7DBDFF",
-      "button": {
-        "label": "UPDATE",
-        "tooltip": "Download or open the Object Manager update page.",
-        "textColor": "#7DBDFF",
-        "borderColor": "#7DBDFF",
-        "url": "https://rhinocan.app/object-manager"
-      },
-      "visible": true,
-      "enabled": true
+      "description": "Scene outliner + RhinoCan Hub",
+      "version": "1.0",
+      "category": "Core",
+      "status": "installed",
+      "tier": "free"
     },
     {
-      "id": "camera-manager",
-      "name": "Camera Manager",
-      "nameColor": "#FFFFFF",
-      "category": "Camera",
-      "categoryColor": "#AAAAAA",
-      "tier": "Free",
-      "tierColor": "#AAAAAA",
-      "version": "1.0.0",
-      "versionColor": "#AAAAAA",
-      "metaText": "Free v1.0.0",
-      "metaColor": "#AAAAAA",
-      "description": "Manage cameras in scene, save views and switch camera presets.",
-      "descriptionColor": "#CFCFCF",
-      "releaseNote": "Initial public version.",
-      "releaseNoteColor": "#7DBDFF",
-      "button": {
-        "label": "GET",
-        "tooltip": "Open the Camera Manager download page.",
-        "textColor": "#7DBDFF",
-        "borderColor": "#7DBDFF",
-        "url": "https://rhinocan.app/camera-manager"
-      },
-      "visible": true,
-      "enabled": true
+      "id": "view-manager",
+      "name": "View Manager",
+      "description": "Display-mode presets, previews and screenshots",
+      "version": "0.9",
+      "category": "Viewport",
+      "status": "available",
+      "action": "get",
+      "tier": "free",
+      "pluginAssembly": "RhinoCanViewManager",
+      "panelId": "C2F8C0D3-1B2E-4D4E-AF32-8B7F3D5E99B2"
     },
     {
       "id": "polar-array",
       "name": "Polar Array",
-      "nameColor": "#FFFFFF",
+      "description": "Radial distribution with live preview",
+      "version": "1.04.179",
       "category": "Modifiers",
-      "categoryColor": "#AAAAAA",
-      "tier": "Free",
-      "tierColor": "#AAAAAA",
-      "version": "1.2.0",
-      "versionColor": "#AAAAAA",
-      "metaText": "Free v1.2.0",
-      "metaColor": "#AAAAAA",
-      "description": "Create procedural polar arrays for objects, ornaments, radial patterns and design variations.",
-      "descriptionColor": "#CFCFCF",
-      "releaseNote": "Procedural polar array tool for RhinoCan modifiers workflow.",
-      "releaseNoteColor": "#7DBDFF",
-      "button": {
-        "label": "GET",
-        "tooltip": "Open the Polar Array download page.",
-        "textColor": "#7DBDFF",
-        "borderColor": "#7DBDFF",
-        "url": "https://rhinocan.app/polar-array"
-      },
-      "visible": true,
-      "enabled": true
-    }
-  ],
-  "hubOptions": [
-    {
-      "id": "showTooltips",
-      "label": "Show tooltips",
-      "visible": true,
-      "enabled": true,
-      "tooltip": "Show or hide ObjectManager tooltips."
+      "status": "available",
+      "tier": "free",
+      "action": "get",
+      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases/latest/download/RhinoCan_PolarArray_Free.zip"
     },
     {
-      "id": "showLauncher",
-      "label": "Show Launcher",
-      "visible": true,
-      "enabled": true,
-      "tooltip": "Show or hide the launcher section below the ObjectManager tree."
+      "id": "scatter",
+      "name": "Scatter",
+      "description": "Distribute objects across surfaces",
+      "category": "Modifiers",
+      "status": "coming_soon",
+      "tier": "pro"
     },
     {
-      "id": "showOnlineMessages",
-      "label": "Show online messages",
-      "visible": true,
-      "enabled": true,
-      "tooltip": "Show online RhinoCan messages from the catalog."
-    }
-  ],
-  "messages": [
+      "id": "array-along-path",
+      "name": "Array Along Path",
+      "description": "Repeat objects along curves",
+      "category": "Modifiers",
+      "status": "coming_soon",
+      "tier": "pro"
+    },
     {
-      "id": "rhinocan-beta-news",
-      "title": "RhinoCan beta catalog is online",
-      "titleColor": "#7DBDFF",
-      "text": "Use this area for general RhinoCan news. Module updates should live inside module cards to avoid duplicate Object Manager cards.",
-      "textColor": "#CFCFCF",
-      "linkLabel": "Open RhinoCan",
-      "linkColor": "#7DBDFF",
-      "url": "https://rhinocan.app",
-      "visible": true,
-      "level": "info"
+      "id": "pipe-sweep",
+      "name": "Pipe / Sweep",
+      "description": "Sweep profiles along paths",
+      "category": "Modifiers",
+      "status": "coming_soon",
+      "tier": "pro"
+    },
+    {
+      "id": "curve-flow",
+      "name": "Curve Flow",
+      "description": "Flow geometry along curves",
+      "category": "Modifiers",
+      "status": "coming_soon",
+      "tier": "pro"
     }
   ]
 }
