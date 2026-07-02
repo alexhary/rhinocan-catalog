@@ -24,6 +24,26 @@
       "panelId": "C2F8C0D3-1B2E-4D4E-AF32-8B7F3D5E99B2"
     },
     {
+      "id": "material-manager",
+      "name": "Material Manager",
+      "description": "Materials & textures: assign, slots, relink, collect, PBR",
+      "version": "0.2",
+      "category": "Materials",
+      "status": "available",
+      "action": "get",
+      "tier": "free",
+      "pluginAssembly": "Material_Manager",
+      "panelId": "0915144F-6CA9-4E2D-9263-DFFB0DEADDE2"
+    },
+    {
+      "id": "pattern-studio",
+      "name": "Pattern Studio",
+      "description": "Procedural hatches, fills and vector patterns",
+      "category": "Patterns",
+      "status": "coming_soon",
+      "tier": "free"
+    },
+    {
       "id": "polar-array",
       "name": "Polar Array",
       "description": "Radial distribution with live preview",
