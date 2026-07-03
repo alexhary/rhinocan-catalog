@@ -1,90 +1,58 @@
 {
   "catalogVersion": "1.0",
-  "updatedAt": "2026-07-02",
+  "updatedAt": "2026-07-03",
   "modules": [
     {
       "id": "object-manager",
       "name": "Object Manager",
-      "description": "Scene outliner + RhinoCan Hub",
-      "version": "1.0",
-      "category": "Core",
-      "status": "installed",
-      "tier": "free"
+      "description": "Scene outliner: layers, groups, objects, display styles.",
+      "version": "0.0.135",
+      "category": "Scene",
+      "status": "available",
+      "tier": "free",
+      "pluginAssembly": "ObjectManager",
+      "panelId": "2BFD0E81-0CA2-4A2D-9BE3-D405E6D50734",
+      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases",
+      "iconPath": ""
     },
     {
       "id": "view-manager",
       "name": "View Manager",
-      "description": "Display-mode presets, previews and screenshots",
-      "version": "0.9",
-      "category": "Viewport",
+      "description": "Display-mode styles: presets and user modes, apply per viewport or per object.",
+      "version": "0.1.0",
+      "category": "Views",
       "status": "available",
-      "action": "get",
       "tier": "free",
       "pluginAssembly": "RhinoCanViewManager",
-      "panelId": "C2F8C0D3-1B2E-4D4E-AF32-8B7F3D5E99B2"
+      "panelId": "C2F8C0D3-1B2E-4D4E-AF32-8B7F3D5E99B2",
+      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases",
+      "iconPath": ""
     },
     {
       "id": "material-manager",
       "name": "Material Manager",
-      "description": "Materials & textures: assign, slots, relink, collect, PBR",
-      "version": "0.2",
+      "description": "Mode-centric materials: slots, textures, per-mode custom material.",
+      "version": "0.0.48.2",
       "category": "Materials",
       "status": "available",
-      "action": "get",
       "tier": "free",
       "pluginAssembly": "Material_Manager",
-      "panelId": "0915144F-6CA9-4E2D-9263-DFFB0DEADDE2"
+      "panelId": "0915144F-6CA9-4E2D-9263-DFFB0DEADDE2",
+      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases",
+      "iconPath": ""
     },
     {
       "id": "pattern-studio",
       "name": "Pattern Studio",
-      "description": "Procedural hatches, fills and vector patterns",
+      "description": "Procedural hatches and patterns with live preview and bake.",
+      "version": "0.1.1",
       "category": "Patterns",
-      "status": "coming_soon",
-      "tier": "free"
-    },
-    {
-      "id": "polar-array",
-      "name": "Polar Array",
-      "description": "Radial distribution with live preview",
-      "version": "1.04.179",
-      "category": "Modifiers",
       "status": "available",
       "tier": "free",
-      "action": "get",
-      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases/latest/download/RhinoCan_PolarArray_Free.zip"
-    },
-    {
-      "id": "scatter",
-      "name": "Scatter",
-      "description": "Distribute objects across surfaces",
-      "category": "Modifiers",
-      "status": "coming_soon",
-      "tier": "pro"
-    },
-    {
-      "id": "array-along-path",
-      "name": "Array Along Path",
-      "description": "Repeat objects along curves",
-      "category": "Modifiers",
-      "status": "coming_soon",
-      "tier": "pro"
-    },
-    {
-      "id": "pipe-sweep",
-      "name": "Pipe / Sweep",
-      "description": "Sweep profiles along paths",
-      "category": "Modifiers",
-      "status": "coming_soon",
-      "tier": "pro"
-    },
-    {
-      "id": "curve-flow",
-      "name": "Curve Flow",
-      "description": "Flow geometry along curves",
-      "category": "Modifiers",
-      "status": "coming_soon",
-      "tier": "pro"
+      "pluginAssembly": "RhinoCanPatternStudio",
+      "panelId": "69E87239-D39B-4A1B-9D56-C12F4D56A8E1",
+      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases",
+      "iconPath": ""
     }
   ]
 }
