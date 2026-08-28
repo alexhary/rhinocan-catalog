@@ -1,57 +1,39 @@
 {
-  "catalogVersion": "1.0",
-  "updatedAt": "2026-07-03",
+  "catalogVersion": "1.1",
+  "updatedAt": "2026-08-28",
+  "hub": {
+    "visible": false
+  },
+  "features": {
+    "cameras": {
+      "access": "preview",
+      "introducedInGeneration": 1,
+      "earlyAdopterCutoffUtc": "2026-12-01T00:00:00Z",
+      "trial": {
+        "enabled": true,
+        "days": 30
+      },
+      "buttons": {
+        "trialLabel": "TRY FOR 30 DAYS",
+        "proLabel": "GET PRO",
+        "proUrl": ""
+      }
+    }
+  },
   "modules": [
     {
       "id": "object-manager",
       "name": "Object Manager",
-      "description": "Scene outliner: layers, groups, objects, display styles.",
-      "version": "0.0.135",
+      "description": "Scene outliner: layers, groups, objects, display styles and cameras.",
+      "version": "0.9.0",
       "category": "Scene",
       "status": "available",
       "tier": "free",
+      "visible": true,
+      "enabled": true,
       "pluginAssembly": "ObjectManager",
       "panelId": "2BFD0E81-0CA2-4A2D-9BE3-D405E6D50734",
-      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases",
-      "iconPath": ""
-    },
-    {
-      "id": "view-manager",
-      "name": "View Manager",
-      "description": "Display-mode styles: presets and user modes, apply per viewport or per object.",
-      "version": "0.1.0",
-      "category": "Views",
-      "status": "available",
-      "tier": "free",
-      "pluginAssembly": "RhinoCanViewManager",
-      "panelId": "C2F8C0D3-1B2E-4D4E-AF32-8B7F3D5E99B2",
-      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases",
-      "iconPath": ""
-    },
-    {
-      "id": "material-manager",
-      "name": "Material Manager",
-      "description": "Mode-centric materials: slots, textures, per-mode custom material.",
-      "version": "0.0.48.2",
-      "category": "Materials",
-      "status": "available",
-      "tier": "free",
-      "pluginAssembly": "Material_Manager",
-      "panelId": "0915144F-6CA9-4E2D-9263-DFFB0DEADDE2",
-      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases",
-      "iconPath": ""
-    },
-    {
-      "id": "pattern-studio",
-      "name": "Pattern Studio",
-      "description": "Procedural hatches and patterns with live preview and bake.",
-      "version": "0.1.1",
-      "category": "Patterns",
-      "status": "available",
-      "tier": "free",
-      "pluginAssembly": "RhinoCanPatternStudio",
-      "panelId": "69E87239-D39B-4A1B-9D56-C12F4D56A8E1",
-      "downloadUrl": "https://github.com/alexhary/rhinocan-catalog/releases",
+      "downloadUrl": "",
       "iconPath": ""
     }
   ]
